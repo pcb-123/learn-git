@@ -1,0 +1,3 @@
+/home/pcb/learn-git/Learn/build/CMakeFiles/program.dir
+/home/pcb/learn-git/Learn/build/CMakeFiles/edit_cache.dir
+/home/pcb/learn-git/Learn/build/CMakeFiles/rebuild_cache.dir

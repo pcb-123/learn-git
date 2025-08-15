@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build",
+      "type": "shell",
+      "command": "make",
+      "group": {
+        "kind": "build",
+        "isDefault": true  // 设为默认构建任务
+      },
+      "problemMatcher": ["$gcc"],
+      
+      "options": {
+        "cwd": "${workspaceFolder}/hello_cmake"  // 确保在工作区根目录执行
+      }
+    }
+  ]
+}
