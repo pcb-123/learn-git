@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [{
+        "name": "Debug C Program",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}/build/program",
+        "args": [],
+        "stopAtEntry": false,
+        "cwd": "${workspaceFolder}",
+        "environment": [],
+        "externalConsole": false,
+        "MIMode": "gdb",
+        // "preLaunchTask": "build",
+         "setupCommands": [
+        {
+          "description": "禁用系统库源码加载",
+          "text": "set debug-file-directory /dummy_path/",  // 假路径阻止加载
+          "ignoreFailures": true
+        },
+        {
+          "text": "set sysroot /"  // 避免搜索系统源码
+        }
+     ]
+    }]
+    
+}

@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/pcb/learn-git/Learn/build",
+  "command": "/usr/bin/gcc  -I/home/pcb/learn-git/Learn/hello_cmake/include -g -std=gnu11 -o CMakeFiles/program.dir/src/main.c.o -c /home/pcb/learn-git/Learn/hello_cmake/src/main.c",
+  "file": "/home/pcb/learn-git/Learn/hello_cmake/src/main.c"
+},
+{
+  "directory": "/home/pcb/learn-git/Learn/build",
+  "command": "/usr/bin/gcc  -I/home/pcb/learn-git/Learn/hello_cmake/include -g -std=gnu11 -o CMakeFiles/program.dir/src/utils.c.o -c /home/pcb/learn-git/Learn/hello_cmake/src/utils.c",
+  "file": "/home/pcb/learn-git/Learn/hello_cmake/src/utils.c"
+}
+]
